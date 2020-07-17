@@ -70,7 +70,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 1px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -93,13 +93,25 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
+  line-height: 25px;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card img {
+  width: 90%;
+  border: 2px solid slategrey;
+  border-radius:20px;
+
+}
 .card:hover {
   border-color: #ff99ff;
+}
+
+.card li {
+    text-align: justify;
 }
 
 ul.skills {
@@ -167,6 +179,12 @@ a.social:hover {
   clear: both;
 }
 
+#comment {
+  width: 80%;
+  height: 200px;
+
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
 
@@ -195,6 +213,25 @@ a.social:hover {
 
   main p {
     line-height: 1.6em;
+  }
+
+  form {
+      max-width: 300px;
+
+  }
+
+  .contact-form {
+    margin: 20px 0px;
+    padding: 10px;
+    text-align: right;
+    line-height: 10px;
+    display: table-row;
+
+  }
+
+  .form-item {
+    padding: 5px;
+
   }
 
   footer {
